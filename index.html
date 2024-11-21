@@ -1,29 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minuman Menu</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Minuman</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="#">Minuman</a>
-          <ul class="submenu">
-            <li><a href="#">Teh Manis</a></li>
-            <li><a href="#">Kopi</a></li>
-            <li><a href="#">Jus Jeruk</a></li>
-            <li><a href="#">Es Kelapa Muda</a></li>
-            <li><a href="#">Air Mineral</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  
-  <script src="script.js"></script>
+    <header>
+        <div class="logo">
+            <h1>Menu Minuman</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Minuman Terpopuler</h2>
+        <div class="menu-item">
+            <img src="images/coffee.jpg" alt="Kopi Hitam">
+            <div class="item-info">
+                <h3>Kopi Hitam</h3>
+                <p>Rasa kopi yang kuat dengan aroma yang menggoda.</p>
+                <span class="price">Rp 20.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/juice.jpg" alt="Jus Jeruk">
+            <div class="item-info">
+                <h3>Jus Jeruk</h3>
+                <p>Segar dan menyegarkan dengan bahan alami.</p>
+                <span class="price">Rp 15.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/smoothie.jpg" alt="Smoothie">
+            <div class="item-info">
+                <h3>Smoothie</h3>
+                <p>Minuman creamy dengan campuran buah-buahan segar.</p>
+                <span class="price">Rp 25.000</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Menu Minuman. Semua hak cipta dilindungi.</p>
+    </footer>
 </body>
 </html>
