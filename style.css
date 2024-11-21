@@ -1,4 +1,4 @@
-/* General styling for the whole section */
+
 .drinks-menu {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -11,16 +11,12 @@
     margin-bottom: 20px;
     color: #333;
 }
-
-/* Styling for the menu items container */
 .menu-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
-
-/* Styling for each individual menu item */
 .menu-item {
     background-color: #fff;
     border-radius: 8px;
@@ -34,15 +30,11 @@
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
-/* Styling for the image inside each menu item */
 .menu-item img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-
-/* Styling for the information area of each item */
 .item-info {
     padding: 15px;
 }
@@ -64,8 +56,6 @@
     font-weight: bold;
     color: #e67e22;
 }
-
-/* Optional: Responsive design for smaller screens */
 @media (max-width: 768px) {
     .menu-items {
         flex-direction: column;
