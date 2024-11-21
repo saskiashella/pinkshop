@@ -163,5 +163,189 @@ footer p {
 
     .menu-item .item-info p {
         font-size: 0.9rem;
+    /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff9f00; /* Warna oranye segar */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header .logo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff700; /* Warna kuning pada hover */
+    transform: translateY(-5px);
+}
+
+/* Menu Section */
+section.menu {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+section.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Menu Item Styles */
+.menu-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 4px solid #f0f0f0;
+}
+
+.menu-item .item-info {
+    padding: 20px;
+    text-align: left;
+    background: linear-gradient(135deg, #ff9f00, #ffcb4d);
+    color: white;
+    border-top: 2px solid #f0f0f0;
+}
+
+.menu-item .item-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu-item .item-info p {
+    font-size: 1rem;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.menu-item .price {
+    font-size: 1.4rem;
+    color: #fff700; /* Warna kuning */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    section.menu {
+        padding: 40px 10px;
+    }
+
+    .menu-item {
+        width: 220px;
+    }
+
+    .menu-item .item-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .menu-item .item-info p {
+        font-size: 0.9rem;
     }
 }
+
+@media (max-width: 480px) {
+    section.menu h2 {
+        font-size: 2rem;
+    }
+
+    .menu-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .menu-item .item-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .menu-item .item-info p {
+        font-size: 0.9rem;
+    }
+}
+
